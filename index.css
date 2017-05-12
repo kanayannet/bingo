@@ -1,0 +1,45 @@
+body{
+    background-color: #CC0F0F;
+}
+
+.open_block{
+	margin-top:5%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+}
+
+.open{
+	display: table-cell;
+	vertical-align: middle;
+	width:500px;
+	height:500px;
+	text-align:center;
+	font-size:100px;
+	font-weight:bold;
+    color: #fff;
+	border:solid #fff 10px;
+	border-radius:50%;
+}
+
+.result_block{
+	display: table;
+    margin-top: 10px;
+}
+.result{
+	display: table-cell;
+	border:solid #fff 1px;
+    padding: 5px;
+	font-size:20px;
+	font-weight:bold;
+    color: #fff;
+    text-align:center;
+}
+.copyright{
+    width: 200px;
+    margin-right: 0px;
+    margin-left: auto;
+	font-size:15px;
+    color: #fff;
+}
