@@ -5,7 +5,7 @@
 - step 2
     - change index.htm
         - &lt;audio src="" loop id="audio"&gt;&lt;/audio&gt;
-            - src="mp3_file_name"
+            - src="[your mp3_file_name]"
 - step 3
     - open index.htm
         - press any key...
