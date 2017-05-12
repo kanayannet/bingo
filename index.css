@@ -1,6 +1,10 @@
 body{
     background-color: #CC0F0F;
 }
+.container{
+    width:100%;
+    min-height:670px;
+}
 
 .open_block{
 	margin-top:5%;
