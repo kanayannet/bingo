@@ -8,7 +8,7 @@ $(document).ready(function(){
     var result_count = 0;
     var result_tr;
     var is_doing = false;
-    $('body').on("click keydown ontouchstart",function(){
+    $('body,.container').on("click keydown ontouchstart",function(){
         if(is_doing == true) return;
         var audio = $('#audio').get(0);
         var stack_length = stack.length;
