@@ -1,0 +1,26 @@
+{
+  "name": "bingo",
+  "version": "1.0.0",
+  "description": "- step 1     - put mp3_file to local directory - step 2     - change index.htm         - &lt;audio src=\"\" loop id=\"audio\"&gt;&lt;/audio&gt;             - src=\"[your mp3_file_name]\" - step 3     - open index.htm         - press any key...",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^4.5.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanayannet/bingo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanayannet/bingo/issues"
+  },
+  "homepage": "https://github.com/kanayannet/bingo#readme"
+}
