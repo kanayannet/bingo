@@ -9,7 +9,7 @@ class Bingo {
     try {
       this.audio.play();
     } catch (e){
-      console.log('cannot play audio');
+      console.warn('cannot play audio');
     }
     this.result_block = $('#js-result');
     this.result_tr = this.result_block;
@@ -43,7 +43,7 @@ class Bingo {
             try {
               this.audio.pause();
               } catch (e){
-                console.log('cannot pause audio');
+                console.warn('cannot pause audio');
               }
           }
           this.is_doing = false;
@@ -51,7 +51,7 @@ class Bingo {
       count++;
     },100);
   }
-};
+}
 
 $(document).ready(function(){
   var bingo = new Bingo();
